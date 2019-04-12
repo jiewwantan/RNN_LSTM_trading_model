@@ -3,6 +3,9 @@
 This project explores stock trading modelling with the use recurrent neural network (RNN) with long-short term memory (LSTM) architecture.  CNN+LSTM hybrid architecture was tried.
 
 ## Data preprocessing
+Data comprises of the asset's OHLCV data and technical data derive from its OHLCV data. A feature selection algorithm are then used to select the data series based on importance. 
+The selected feature data are visualized below. This visualization of pre-processed data demonstrates data richness. 
+
 [image0]: https://github.com/jiewwantan/RNN_LSTM_trading_model/blob/master/features_visualization_AAPL.png "Selected features' visualization"
 ![Selected features' visualization][image0]
 
