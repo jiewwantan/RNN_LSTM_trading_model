@@ -45,9 +45,9 @@ All training and the pre-trained models in this notebook and rnn_modelling.py ar
 
 
 ## Conclusion
-After trying a number of model architectures, optimizers, hyperparameter adjustment and normalization techniques, the results shows that it is possible to predict stock price. Perhaps, backtesting will be required to see if these models can make profitiable trading system. I reckon real world trading result will discount the backtesting result even further. So these models will need to have better generalization ability in order to get pass backtesting and eventually became a workable real wolrd trading algorithm.
+After trying a number of model architectures, optimizers, hyperparameter adjustment and normalization techniques, the unseen data prediction and backtesting results shows that it is possible to use RNN-LSTM for stock trading.  I reckon real world trading result will discount the backtesting result even further. So these models will need to have better generalization ability in order to get pass backtesting and eventually became a workable real world trading algorithm.
 
-For improvements, I suggest:
-More context and fundamental data.
-Predict returns instead of price.
+For improvements, I suggest:</br>
+More context and fundamental data.</br>
+Predict returns instead of price.</br>
 Try reinforcement learning algorithm
