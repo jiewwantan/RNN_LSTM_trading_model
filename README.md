@@ -1,6 +1,7 @@
-# RNN LSTM Trading Modelling
+# Recurrent neural network - Long-Short Term Memory Trading Modelling
 
 This project explores stock trading modelling with the use recurrent neural network (RNN) with long-short term memory (LSTM) architecture.  CNN+LSTM hybrid architecture was tried.
+Tensorflow and Keras are adopted for implementation. 
 
 ## Data preprocessing
 Data comprises of the asset's OHLCV data and technical data derive from its OHLCV data. A feature selection algorithm are then used to select the data series based on importance. 
