@@ -3,8 +3,8 @@
 This project explores stock trading modelling with the use recurrent neural network (RNN) with long-short term memory (LSTM) architecture.  CNN+LSTM hybrid architecture was tried.
 
 ## Data preprocessing
-[image1]: https://github.com/jiewwantan/RNN_LSTM_trading_model/blob/master/features_visualization_AAPL.png "Selected features' visualization"
-![Selected features' visualization][image1]
+[image0]: https://github.com/jiewwantan/RNN_LSTM_trading_model/blob/master/features_visualization_AAPL.png "Selected features' visualization"
+![Selected features' visualization][image0]
 
 ## Model Construction & Training
 Two machine learning algorithms were tested for price prediction application: A multi-layer recurrent neural network with Long-short term memory (LSTM) cells and a hybrid consists of 2 convolutional neural network layers & 1 LSTM neural network layers.
